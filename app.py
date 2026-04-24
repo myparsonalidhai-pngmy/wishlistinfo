@@ -28,7 +28,7 @@ def extract_token_from_response(data, region):
 def get_jwt_token_sync(region):
     global jwt_token
     endpoints = {
-        "IND": "https://anas-wt-create.vercel.app/token?uid=4725614784&password=ANASA5000_RIZER_UU5W1",
+        "IND": "https://jwt-rho-five.vercel.app/api/token?uid=4725614784&password=ANASA5000_RIZER_UU5W1",
         "BR": "https://anas-wt-create.vercel.app/token?uid=3787481313&password=JlOivPeosauV0l9SG6gwK39lH3x2kJkO",
         "US": "https://anas-wt-create.vercel.app/token?uid=3787481313&password=JlOivPeosauV0l9SG6gwK39lH3x2kJkO",
         "SAC": "https://anas-wt-create.vercel.app/token?uid=3787481313&password=JlOivPeosauV0l9SG6gwK39lH3x2kJkO",
