@@ -29,11 +29,11 @@ def get_jwt_token_sync(region):
     global jwt_token
     endpoints = {
         "IND": "https://jwt-rho-five.vercel.app/api/token?uid=4725614784&password=ANASA5000_RIZER_UU5W1",
-        "BR": "https://anas-wt-create.vercel.app/token?uid=3787481313&password=JlOivPeosauV0l9SG6gwK39lH3x2kJkO",
-        "US": "https://anas-wt-create.vercel.app/token?uid=3787481313&password=JlOivPeosauV0l9SG6gwK39lH3x2kJkO",
-        "SAC": "https://anas-wt-create.vercel.app/token?uid=3787481313&password=JlOivPeosauV0l9SG6gwK39lH3x2kJkO",
-        "NA": "https://anas-wt-create.vercel.app/token?uid=3787481313&password=JlOivPeosauV0l9SG6gwK39lH3x2kJkO",
-        "default": "hhttps://anas-wt-create.vercel.app/token?uid=4151617822&password=9DD3258FAA0E5D0BE10CCC51F47987F5974CB0FBF7662E2CF5B9139A4D714A2C"
+        "BR": "https://jwt-rho-five.vercel.app/api/token?uid=3787481313&password=JlOivPeosauV0l9SG6gwK39lH3x2kJkO",
+        "US": "https://jwt-rho-five.vercel.app/api/token?uid=3787481313&password=JlOivPeosauV0l9SG6gwK39lH3x2kJkO",
+        "SAC": "https://jwt-rho-five.vercel.app/api/token?uid=3787481313&password=JlOivPeosauV0l9SG6gwK39lH3x2kJkO",
+        "NA": "https://jwt-rho-five.vercel.app/api/token?uid=3787481313&password=JlOivPeosauV0l9SG6gwK39lH3x2kJkO",
+        "default": "https://jwt-rho-five.vercel.app/api/token?uid=4151617822&password=9DD3258FAA0E5D0BE10CCC51F47987F5974CB0FBF7662E2CF5B9139A4D714A2C"
     }    
     url = endpoints.get(region, endpoints["default"])
     with jwt_lock:
